@@ -10,6 +10,23 @@ public class Rect extends Shape {
         this.width = width;
     }
 
+    public void setHeight(int height) {
+        this.height = height;
+
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
     @Override
     public int getArea(){
         int Area = 0;
